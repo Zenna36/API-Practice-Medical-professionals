@@ -1,0 +1,17 @@
+<%- include('../partials/header'); %>
+
+    <main class="main container">
+        <div class="row">
+            <h2 class="col-12"><%= name %></h2>
+            <section class="section row">
+                <figure class="figure col-10">
+                    <hr>
+                    <figcaption><strong>Short name:</strong> <%= data.long_name %></figcaption>
+                    <hr>
+                    <figcaption><strong>Long Name:</strong> <%= data.short_name %></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+<%- include('../partials/footer'); %>
